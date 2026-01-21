@@ -21,7 +21,7 @@ It is primarily built to explore backend architecture, data modeling, and role-b
 -JWT Authentication
 
 ## Data Modeling
-_Users and Admins modeled separately
+-Users and Admins modeled separately
 -Courses owned by Admins
 -Purchases act as a join collection between users and courses
 
@@ -37,4 +37,3 @@ _Users and Admins modeled separately
 
 ## Known Limitations / Future Improvements
 -No transactional guarantees yet (to be added later)
-
