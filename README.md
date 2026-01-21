@@ -9,21 +9,21 @@ It is primarily built to explore backend architecture, data modeling, and role-b
 
 
 ## Features
--User & Admin authentication (JWT)
--Course creation by admins
--Course purchase and access tracking
--MongoDB data modeling with seaparate purchase collection
+- User & Admin authentication (JWT)
+- Course creation by admins
+- Course purchase and access tracking
+- MongoDB data modeling with seaparate purchase collection
 
 ## Tech Stack
--Node.js
--Express
--MongoDB + Mongoose
--JWT Authentication
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT Authentication
 
 ## Data Modeling
--Users and Admins modeled separately
--Courses owned by Admins
--Purchases act as a join collection between users and courses
+- Users and Admins modeled separately
+- Courses owned by Admins
+- Purchases act as a join collection between users and courses
 
 ## Environment Setup
 1. Clone the repository
@@ -36,4 +36,4 @@ It is primarily built to explore backend architecture, data modeling, and role-b
 5. Start the server (bash npm start)
 
 ## Known Limitations / Future Improvements
--No transactional guarantees yet (to be added later)
+- No transactional guarantees yet (to be added later)
